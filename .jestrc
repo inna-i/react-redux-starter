@@ -1,0 +1,12 @@
+{
+  "transform": {
+    ".*": "<rootDir>/node_modules/babel-jest"
+  },
+  "roots": [
+    "src/"
+  ],
+  "testRegex": "&*\\.test\\.js$",
+  "moduleNameMapper": {
+    "^.+\\.(css|scss)$": "identity-obj-proxy"
+  }
+}

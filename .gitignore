@@ -1,0 +1,6 @@
+# JavaScript/NodeJS files #
+.npm/
+npm-debug.log
+node_modules/
+.node-gyp
+coverage/

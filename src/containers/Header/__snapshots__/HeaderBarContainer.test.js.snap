@@ -1,0 +1,430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header bar container test Should check HeaderBar with default state 1`] = `
+<HeaderBarContainer
+  applications={
+    Array [
+      "STUDIO",
+      "TIPAAS",
+      "TMC",
+      "TDP",
+      "TDC",
+      "TDS",
+      "DSS",
+    ]
+  }
+  config={
+    Object {
+      "COMMUNITY": "https://community.talend.com/",
+      "DSS": "/api/dss",
+      "DataStreams": "http://localhost:8080",
+      "HELP": "https://help.talend.com/access/sources/CLOUD/topic?pageid=tic_architecture&afs:lang=en&EnrichVersion=Cloud",
+      "IAM": "/api/iam-server",
+      "IDP": "/api/idp",
+      "LOGGING": "https://talend-cloud-integration-tpsvc-logging.datapwn.com",
+      "LOGOUT": "/logout",
+      "ME": "/api/scim/me",
+      "PendoActivated": "true",
+      "PendoApiKey": "607d926e-19bf-4f39-575d-58aed1b24a6d",
+      "PendoCloudProvider": "AWS",
+      "PlayListDataPrep": "/v1/landing/dataPrepPlaylist",
+      "PlayListTDS": "/v1/landing/tdsPlaylist",
+      "PlayListTic": "/v1/landing/ticPlaylist",
+      "RSS": "/v1/landing/news",
+      "Region": "us-east-1",
+      "SUPPORT": "https://www.talend.com/services/technical-support/",
+      "TDP": "https://talend-cloud-integration-tdp.datapwn.com/",
+      "TDPIsReady": "Yes",
+      "TDS": "https://talend-cloud-integration-tds.datapwn.com/",
+      "TDSIsReady": "No",
+      "TIC": "https://frontend-talend-cloud-integration-us-east-1.datapwn.com/ipaas",
+      "TMC": "https://talend-cloud-integration-tmc.datapwn.com/",
+    }
+  }
+  i18n={
+    Object {
+      "getFixedT": [Function],
+      "loadNamespaces": [Function],
+      "on": [Function],
+      "options": Object {},
+    }
+  }
+  isUserSettingsShown={undefined}
+  logoutLinkClicked={[Function]}
+  meProfile={
+    Object {
+      "active": true,
+      "emails": Array [
+        Object {
+          "display": "admin@tmc.talend.com",
+          "primary": true,
+          "type": "work",
+          "value": "admin@tmc.talend.com",
+        },
+      ],
+      "entitlements": Array [
+        Object {
+          "display": "TIPAAS_ENTITLEMENT_AUTHENTICATED",
+          "primary": false,
+          "type": "direct",
+          "value": "TIPAAS_ENTITLEMENT_AUTHENTICATED",
+        },
+        Object {
+          "display": "TMC_ROLE_MANAGEMENT",
+          "primary": false,
+          "type": "direct",
+          "value": "TMC_ROLE_MANAGEMENT",
+        },
+        Object {
+          "display": "TMC_SUBSCRIPTION_MANAGEMENT",
+          "primary": false,
+          "type": "direct",
+          "value": "TMC_SUBSCRIPTION_MANAGEMENT",
+        },
+        Object {
+          "display": "TDP_DATASET_PERFORM_LIVE",
+          "primary": false,
+          "type": "direct",
+          "value": "TDP_DATASET_PERFORM_LIVE",
+        },
+        Object {
+          "display": "TMC_USER_MANAGEMENT",
+          "primary": false,
+          "type": "direct",
+          "value": "TMC_USER_MANAGEMENT",
+        },
+        Object {
+          "display": "STUDIO_ENTITLEMENT_STUDIO_DEVELOPER",
+          "primary": false,
+          "type": "direct",
+          "value": "STUDIO_ENTITLEMENT_STUDIO_DEVELOPER",
+        },
+        Object {
+          "display": "TDP_DATASET_CERTIFY",
+          "primary": false,
+          "type": "direct",
+          "value": "TDP_DATASET_CERTIFY",
+        },
+        Object {
+          "display": "TMC_POLICY_PASSWORD",
+          "primary": false,
+          "type": "direct",
+          "value": "TMC_POLICY_PASSWORD",
+        },
+        Object {
+          "display": "TDP_PREP_VERSION_CREATE",
+          "primary": false,
+          "type": "direct",
+          "value": "TDP_PREP_VERSION_CREATE",
+        },
+        Object {
+          "display": "TMC_PROJECT_MANAGEMENT",
+          "primary": false,
+          "type": "direct",
+          "value": "TMC_PROJECT_MANAGEMENT",
+        },
+        Object {
+          "display": "TDP_FULL_RUN_PERFORM",
+          "primary": false,
+          "type": "direct",
+          "value": "TDP_FULL_RUN_PERFORM",
+        },
+        Object {
+          "display": "TDP_TCOMP_USE",
+          "primary": false,
+          "type": "direct",
+          "value": "TDP_TCOMP_USE",
+        },
+        Object {
+          "display": "TIPAAS_ENTITLEMENT_ACCOUNTADMIN",
+          "primary": false,
+          "type": "direct",
+          "value": "TIPAAS_ENTITLEMENT_ACCOUNTADMIN",
+        },
+        Object {
+          "display": "TDP_BASIC",
+          "primary": false,
+          "type": "direct",
+          "value": "TDP_BASIC",
+        },
+        Object {
+          "display": "TMC_GROUP_MANAGEMENT",
+          "primary": false,
+          "type": "direct",
+          "value": "TMC_GROUP_MANAGEMENT",
+        },
+        Object {
+          "display": "TMC_CONFIGURATION_NEXUS_USERLIBS",
+          "primary": false,
+          "type": "direct",
+          "value": "TMC_CONFIGURATION_NEXUS_USERLIBS",
+        },
+      ],
+      "groups": Array [
+        Object {
+          "display": "dddddd",
+          "ref": "/Groups/96c5e8b4-9c34-454e-85e8-b49c34f54eff",
+          "type": "direct",
+          "value": "96c5e8b4-9c34-454e-85e8-b49c34f54eff",
+        },
+        Object {
+          "display": "Test",
+          "ref": "/Groups/9a0b56f6-044e-43fd-8b56-f6044e53fd57",
+          "type": "direct",
+          "value": "9a0b56f6-044e-43fd-8b56-f6044e53fd57",
+        },
+        Object {
+          "display": "GroupD",
+          "ref": "/Groups/c5c0368e-2d8c-45f1-8036-8e2d8ce5f10a",
+          "type": "direct",
+          "value": "c5c0368e-2d8c-45f1-8036-8e2d8ce5f10a",
+        },
+        Object {
+          "display": "Administrators",
+          "ref": "/Groups/d6c7f925-8785-4e32-87f9-258785de32ef",
+          "type": "direct",
+          "value": "d6c7f925-8785-4e32-87f9-258785de32ef",
+        },
+      ],
+      "id": "id",
+      "lastSetPasswordDate": 1506328904542,
+      "meta": Object {
+        "created": "2017-09-25T08:41:44.974Z",
+        "lastModified": "2017-11-10T13:45:16.806Z",
+        "location": "/Users/a0317acd-8478-4e7d-b17a-cd84782e7df6",
+        "resourceType": "USER",
+      },
+      "name": Object {
+        "familyName": "Bacca",
+        "formatted": "Chew Bacca",
+        "givenName": "Chew",
+      },
+      "roles": Array [
+        Object {
+          "display": "Administrator",
+          "entitlements": Array [
+            Object {
+              "display": "TDP_DATASET_CERTIFY",
+              "primary": false,
+              "type": "direct",
+              "value": "TDP_DATASET_CERTIFY",
+            },
+            Object {
+              "display": "TDP_TCOMP_USE",
+              "primary": false,
+              "type": "direct",
+              "value": "TDP_TCOMP_USE",
+            },
+            Object {
+              "display": "TDP_DATASET_PERFORM_LIVE",
+              "primary": false,
+              "type": "direct",
+              "value": "TDP_DATASET_PERFORM_LIVE",
+            },
+            Object {
+              "display": "TDP_FULL_RUN_PERFORM",
+              "primary": false,
+              "type": "direct",
+              "value": "TDP_FULL_RUN_PERFORM",
+            },
+            Object {
+              "display": "TDP_PREP_VERSION_CREATE",
+              "primary": false,
+              "type": "direct",
+              "value": "TDP_PREP_VERSION_CREATE",
+            },
+          ],
+          "primary": false,
+          "ref": "/Roles/ffc262b0-f5dc-42ac-8262-b0f5dcd2ac1a",
+          "type": "direct",
+          "value": "ffc262b0-f5dc-42ac-8262-b0f5dcd2ac1a",
+        },
+        Object {
+          "display": "Administrator",
+          "entitlements": Array [
+            Object {
+              "display": "TIPAAS_ENTITLEMENT_ACCOUNTADMIN",
+              "primary": false,
+              "type": "direct",
+              "value": "TIPAAS_ENTITLEMENT_ACCOUNTADMIN",
+            },
+          ],
+          "primary": false,
+          "ref": "/Roles/9cb2be4d-be02-4968-b2be-4dbe02796829",
+          "type": "direct",
+          "value": "9cb2be4d-be02-4968-b2be-4dbe02796829",
+        },
+        Object {
+          "display": "Data Preparator",
+          "entitlements": Array [
+            Object {
+              "display": "TDP_BASIC",
+              "primary": false,
+              "type": "direct",
+              "value": "TDP_BASIC",
+            },
+          ],
+          "primary": false,
+          "ref": "/Roles/9c93fe07-92a0-4706-93fe-0792a07706ec",
+          "type": "direct",
+          "value": "9c93fe07-92a0-4706-93fe-0792a07706ec",
+        },
+        Object {
+          "display": "Dataset Manager",
+          "entitlements": Array [
+            Object {
+              "display": "TDP_TCOMP_USE",
+              "primary": false,
+              "type": "direct",
+              "value": "TDP_TCOMP_USE",
+            },
+            Object {
+              "display": "TDP_FULL_RUN_PERFORM",
+              "primary": false,
+              "type": "direct",
+              "value": "TDP_FULL_RUN_PERFORM",
+            },
+          ],
+          "primary": false,
+          "ref": "/Roles/f69f65cd-1b49-4ec9-9f65-cd1b491ec937",
+          "type": "direct",
+          "value": "f69f65cd-1b49-4ec9-9f65-cd1b491ec937",
+        },
+        Object {
+          "display": "Integration Developer",
+          "entitlements": Array [
+            Object {
+              "display": "STUDIO_ENTITLEMENT_STUDIO_DEVELOPER",
+              "primary": false,
+              "type": "direct",
+              "value": "STUDIO_ENTITLEMENT_STUDIO_DEVELOPER",
+            },
+          ],
+          "primary": false,
+          "ref": "/Roles/c35c4d84-060b-4679-9c4d-84060bf67908",
+          "type": "direct",
+          "value": "c35c4d84-060b-4679-9c4d-84060bf67908",
+        },
+        Object {
+          "display": "Project Administrator",
+          "entitlements": Array [
+            Object {
+              "display": "TMC_PROJECT_MANAGEMENT",
+              "primary": false,
+              "type": "direct",
+              "value": "TMC_PROJECT_MANAGEMENT",
+            },
+            Object {
+              "display": "TMC_CONFIGURATION_NEXUS_USERLIBS",
+              "primary": false,
+              "type": "direct",
+              "value": "TMC_CONFIGURATION_NEXUS_USERLIBS",
+            },
+          ],
+          "primary": false,
+          "ref": "/Roles/bf6a4fc7-6c42-4744-aa4f-c76c42e744fa",
+          "type": "direct",
+          "value": "bf6a4fc7-6c42-4744-aa4f-c76c42e744fa",
+        },
+        Object {
+          "display": "a ",
+          "primary": false,
+          "ref": "/Roles/54fbd08c-9af6-4182-bbd0-8c9af691827c",
+          "type": "direct",
+          "value": "54fbd08c-9af6-4182-bbd0-8c9af691827c",
+        },
+        Object {
+          "display": "Operator",
+          "entitlements": Array [
+            Object {
+              "display": "TIPAAS_ENTITLEMENT_AUTHENTICATED",
+              "primary": false,
+              "type": "direct",
+              "value": "TIPAAS_ENTITLEMENT_AUTHENTICATED",
+            },
+          ],
+          "primary": false,
+          "ref": "/Roles/7da58230-87b1-4dc2-a582-3087b15dc231",
+          "type": "direct",
+          "value": "7da58230-87b1-4dc2-a582-3087b15dc231",
+        },
+        Object {
+          "display": "Security Administrator",
+          "entitlements": Array [
+            Object {
+              "display": "TMC_ROLE_MANAGEMENT",
+              "primary": false,
+              "type": "direct",
+              "value": "TMC_ROLE_MANAGEMENT",
+            },
+            Object {
+              "display": "TMC_USER_MANAGEMENT",
+              "primary": false,
+              "type": "direct",
+              "value": "TMC_USER_MANAGEMENT",
+            },
+            Object {
+              "display": "TMC_GROUP_MANAGEMENT",
+              "primary": false,
+              "type": "direct",
+              "value": "TMC_GROUP_MANAGEMENT",
+            },
+            Object {
+              "display": "TMC_SUBSCRIPTION_MANAGEMENT",
+              "primary": false,
+              "type": "direct",
+              "value": "TMC_SUBSCRIPTION_MANAGEMENT",
+            },
+            Object {
+              "display": "TMC_POLICY_PASSWORD",
+              "primary": false,
+              "type": "direct",
+              "value": "TMC_POLICY_PASSWORD",
+            },
+          ],
+          "primary": false,
+          "ref": "/Roles/203bbfa2-9e8a-479f-bbbf-a29e8ac79f83",
+          "type": "direct",
+          "value": "203bbfa2-9e8a-479f-bbbf-a29e8ac79f83",
+        },
+      ],
+      "schemas": Array [
+        "urn:ietf:params:scim:schemas:core:2.0:User",
+      ],
+      "timezone": "Africa/Addis_Ababa",
+      "userName": "admin@tmc.talend.com",
+    }
+  }
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "clear": [Function],
+        "notify": [Function],
+        "subscribe": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": [Function],
+    }
+  }
+  t={undefined}
+/>
+`;

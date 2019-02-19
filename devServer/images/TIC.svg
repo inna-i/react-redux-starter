@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="530" height="90" viewBox="0 0 530 90">
+  <defs>
+    <linearGradient id="tic-a" x1="78.896%" x2="19.592%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#009597"/>
+      <stop offset="100%" stop-color="#17486E"/>
+    </linearGradient>
+    <linearGradient id="tic-b" x1="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#236192"/>
+      <stop offset="100%" stop-color="#008F97"/>
+    </linearGradient>
+    <linearGradient id="tic-c" x1="55.19%" x2="114.77%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#168396"/>
+      <stop offset="100%" stop-color="#B6BE00"/>
+      <stop offset="100%" stop-color="#B6BE00"/>
+    </linearGradient>
+    <linearGradient id="tic-d" x1="93.67%" x2="-19.565%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(-.428 -.052)">
+      <rect width="452" height="74" x="78.428" y="17.052" fill="#FFF"/>
+      <rect width="530" height="19.072" x=".492" fill="url(#tic-a)"/>
+      <rect width="77" height="5.6" x="46.5" y="6.7" fill="#FFF" opacity=".7" rx="2.8"/>
+      <rect width="26.136" height="5.6" x="424.152" y="6.7" fill="#FFF" opacity=".7" rx="2.8"/>
+      <rect width="38.534" height="5.6" x="475.591" y="6.7" fill="#FFF" opacity=".7" rx="2.8"/>
+      <circle cx="39.5" cy="9.5" r="3.5" fill="#FFF" opacity=".7"/>
+      <circle cx="394.664" cy="9.5" r="3.5" fill="#FFF" fill-opacity=".6"/>
+      <circle cx="416.692" cy="9.5" r="3.5" fill="#FFF" fill-opacity=".6"/>
+      <circle cx="469.302" cy="9.5" r="3.5" fill="#FFF" fill-opacity=".6"/>
+    </g>
+    <g transform="translate(77.32 18.807)">
+      <rect width="22.068" height="3.462" x="19.141" y="40.657" fill="#C3C3C3" rx="1.731"/>
+      <rect width="169.316" height="3.462" x="18.844" y="52.131" fill="#F2F2F2" rx="1.731"/>
+      <rect width="103.471" height="3.462" x="18.844" y="65.131" fill="#F2F2F2" rx="1.731"/>
+      <rect width="47.621" height="3.462" x="252.123" y="52.131" fill="#F2F2F2" rx="1.731"/>
+      <rect width="28.219" height="3.462" x="252.123" y="65.131" fill="#F2F2F2" rx="1.731"/>
+      <rect width="47.621" height="3.462" x="320.79" y="52.131" fill="#F2F2F2" rx="1.731"/>
+      <rect width="23.516" height="3.462" x="320.79" y="65.131" fill="#F2F2F2" rx="1.731"/>
+      <rect width="47.621" height="3.462" x="388.516" y="52.131" fill="#F2F2F2" rx="1.731"/>
+      <rect width="42.329" height="3.462" x="388.516" y="65.131" fill="#F2F2F2" rx="1.731"/>
+      <rect width="22.068" height="3.462" x="251.873" y="40.657" fill="#C3C3C3" rx="1.731"/>
+      <rect width="29.037" height="3.462" x="320.423" y="40.657" fill="#C3C3C3" rx="1.731"/>
+      <rect width="34.845" height="3.462" x="388.973" y="40.657" fill="#C3C3C3" rx="1.731"/>
+      <rect width="453.791" height="25.381" x=".844" y=".117" fill="#F2F2F2"/>
+    </g>
+    <path stroke="#FFF" stroke-linecap="square" d="M405.5 5.5L405.5 13.5M457.819336 5.5L457.819336 13.5" opacity=".604"/>
+    <g transform="translate(-1 19)">
+      <rect width="78" height="198.545" x="1.02" fill="url(#tic-b)"/>
+      <rect width="77.859" height="21.191" x=".993" y="13.88" fill="url(#tic-c)" transform="matrix(-1 0 0 1 79.845 0)"/>
+      <g fill="#FFF" fill-opacity=".7" transform="translate(7 21)">
+        <circle cx="4.008" cy="3.5" r="3.5"/>
+        <rect width="15" height="5" x="12" y="1" rx="1"/>
+      </g>
+      <g fill="#FFF" fill-opacity=".7" transform="translate(7 41.72)">
+        <circle cx="4.008" cy="3.5" r="3.5"/>
+        <circle cx="4.008" cy="24.831" r="3.5"/>
+        <rect width="27.473" height="5" x="12" y="1" rx="1"/>
+        <rect width="27.473" height="5" x="12" y="22.331" rx="1"/>
+      </g>
+    </g>
+    <rect width="285.234" height="90" y="-.5" fill="url(#tic-d)"/>
+  </g>
+</svg>
